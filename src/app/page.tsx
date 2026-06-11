@@ -5,6 +5,7 @@ import Program from "@/components/Program";
 import Gallery from "@/components/Gallery";
 import TargetAudience from "@/components/TargetAudience";
 import Team from "@/components/Team";
+import Atmosphere from "@/components/Atmosphere";
 import Reviews from "@/components/Reviews";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
@@ -56,6 +57,9 @@ export default function Home() {
         
         {/* Team Section (Wobble Card) */}
         <Team />
+        
+        {/* Atmosphere of our workshops Section */}
+        <Atmosphere />
         
         {/* Social Proof (Infinite Moving Cards marquee) */}
         <Reviews />
